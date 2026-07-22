@@ -1,6 +1,6 @@
-# Leggett Ventures — Website
+# Leggett Capital Partners — Website
 
-Redesigned marketing site for Leggett Ventures. Pure static HTML/CSS/JS — no build step, no dependencies.
+Redesigned marketing site for Leggett Capital Partners. Pure static HTML/CSS/JS — no build step, no dependencies.
 
 ## Structure
 ```
