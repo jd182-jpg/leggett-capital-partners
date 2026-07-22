@@ -81,7 +81,7 @@
       ],
     },
     ashley: {
-      name: 'Ashley Tucker Zatcoff', title: 'Partner & Chief Operating Officer', company: 'Leggett Capital Partners',
+      name: 'Ashley Tucker Zatcoff', title: 'Partner, Chief Operating Officer & Chief Compliance Officer', company: 'Leggett Capital Partners',
       photo: 'assets/team/ashley.jpg',
       colleges: [{ name: 'University of South Carolina', logo: 'assets/colleges/south-carolina.png' }],
       bio: [
