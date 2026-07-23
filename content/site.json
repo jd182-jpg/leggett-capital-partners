@@ -138,6 +138,22 @@
         "Prior to joining Leggett Capital Partners, Andrew worked in public accounting at Reimer McGuinness Hess, where he provided accounting, tax, and advisory services to a diverse portfolio of businesses, developing expertise in financial reporting, tax compliance, and client consulting. He also served as a Senior Accountant with Safety Vision, further expanding his experience in corporate accounting, financial statement preparation, and multi-state tax reporting.",
         "Before beginning his career in accounting, Andrew proudly served in the United States Marine Corps, where he developed the discipline, leadership, and commitment to excellence that continue to shape his professional approach today."
       ]
+    },
+    "hiba": {
+      "role": "Operations Coordinator", "company": "Leggett Capital Partners", "extra": "",
+      "modalTitle": "Operations Coordinator",
+      "photo": "assets/team/hiba.jpg",
+      "bio": [
+        "Hiba Alkhuzaie is an Operations Coordinator at Leggett Capital Partners, where she supports the firm's day-to-day operations across its portfolio companies and investments. She helps keep projects, reporting, and internal workflows running smoothly so the team can stay focused on serving investors and executing on new opportunities. Hiba is a graduate of the University of Illinois."
+      ]
+    },
+    "seslee": {
+      "role": "Senior Accountant", "company": "Leggett Capital Partners", "extra": "",
+      "modalTitle": "Senior Accountant",
+      "photo": "assets/team/seslee.jpg",
+      "bio": [
+        "Seslee Skrabanek is a Senior Accountant at Leggett Capital Partners, where she manages accounting and financial reporting across the firm's partnerships and portfolio companies. She supports budgeting, reconciliations, and the accounting processes that keep the firm's investments accurate and well documented. Seslee is a graduate of Texas A&M University."
+      ]
     }
   }
 }

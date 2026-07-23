@@ -140,6 +140,22 @@
         `Before beginning his career in accounting, Andrew proudly served in the United States Marine Corps, where he developed the discipline, leadership, and commitment to excellence that continue to shape his professional approach today.`,
       ],
     },
+    hiba: {
+      name: 'Hiba Alkhuzaie', title: 'Operations Coordinator', company: 'Leggett Capital Partners',
+      photo: 'assets/team/hiba.jpg',
+      colleges: [{ name: 'University of Illinois', logo: 'assets/colleges/illinois.png' }],
+      bio: [
+        `Hiba Alkhuzaie is an Operations Coordinator at Leggett Capital Partners, where she supports the firm's day-to-day operations across its portfolio companies and investments. She helps keep projects, reporting, and internal workflows running smoothly so the team can stay focused on serving investors and executing on new opportunities. Hiba is a graduate of the University of Illinois.`,
+      ],
+    },
+    seslee: {
+      name: 'Seslee Skrabanek', title: 'Senior Accountant', company: 'Leggett Capital Partners',
+      photo: 'assets/team/seslee.jpg',
+      colleges: [{ name: 'Texas A&M University', logo: 'assets/colleges/texas-am.png' }],
+      bio: [
+        `Seslee Skrabanek is a Senior Accountant at Leggett Capital Partners, where she manages accounting and financial reporting across the firm's partnerships and portfolio companies. She supports budgeting, reconciliations, and the accounting processes that keep the firm's investments accurate and well documented. Seslee is a graduate of Texas A&M University.`,
+      ],
+    },
   };
 
   // Merge CMS-edited titles/bios (from content/site.json) over the defaults above.
