@@ -15,11 +15,50 @@ content:
           - { name: title, label: Headline, type: string }
           - { name: subhead, label: Subhead, type: text }
           - { name: tagline, label: Tagline (under subhead), type: string }
+      - name: stats
+        label: Stats band (the 3 big numbers)
+        type: list
+        fields:
+          - { name: count, label: "Number (digits only, e.g. 400)", type: number }
+          - { name: prefix, label: "Prefix (e.g. $)", type: string }
+          - { name: suffix, label: "Suffix (e.g. M+)", type: string }
+          - { name: label, label: Label, type: string }
+      - name: approach
+        label: Our Approach
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - { name: lead, label: Lead paragraph, type: text }
+          - name: pillars
+            label: Pillars
+            type: list
+            fields:
+              - { name: heading, label: Heading, type: string }
+              - { name: text, label: Text, type: text }
+      - name: why
+        label: Why Leggett Capital Partners
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - name: items
+            label: Points
+            type: list
+            fields:
+              - { name: heading, label: Heading, type: string }
+              - { name: text, label: Text, type: text }
       - name: portfolio
         label: Portfolio
         type: object
         fields:
+          - { name: section_title, label: Section title, type: string }
+          - { name: section_lead, label: Section lead, type: text }
           - { name: oil_intro, label: "Oil & Gas — intro paragraph", type: text }
+          - name: oil_stats
+            label: "Oil & Gas — stat figures"
+            type: list
+            fields:
+              - { name: num, label: "Figure (e.g. 44,000+)", type: string }
+              - { name: label, label: Label, type: string }
           - name: oil_funds
             label: "Oil & Gas — Cannon Field funds"
             type: list
@@ -30,6 +69,20 @@ content:
           - { name: re_labels, label: "Real Estate — company labels", type: string, list: true }
           - { name: opp_intro, label: "Opportunities — intro paragraph", type: text }
           - { name: opp_labels, label: "Opportunities — investment labels", type: string, list: true }
+      - name: story
+        label: Our Story (timeline)
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - { name: lead, label: Lead paragraph, type: text }
+          - name: milestones
+            label: Milestones
+            type: list
+            fields:
+              - { name: year, label: Year, type: string }
+              - { name: name, label: Name, type: string }
+              - { name: category, label: Category, type: string }
+              - { name: url, label: Link URL, type: string }
       - name: contact
         label: Contact
         type: object
@@ -49,6 +102,7 @@ content:
             label: John Leggett
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -58,6 +112,7 @@ content:
             label: Ashley Tucker Zatcoff
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -67,6 +122,7 @@ content:
             label: Brian Weinberg
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -76,6 +132,7 @@ content:
             label: Earl Correll
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -85,6 +142,7 @@ content:
             label: Brad Elmore
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -94,6 +152,7 @@ content:
             label: Eric Kline
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }
@@ -103,6 +162,7 @@ content:
             label: Andrew Herrick
             type: object
             fields:
+              - { name: photo, label: Photo, type: image }
               - { name: role, label: "Role (card line 1)", type: string }
               - { name: company, label: "Company (card line 2)", type: string }
               - { name: extra, label: "Third line (optional)", type: string }

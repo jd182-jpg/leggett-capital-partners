@@ -149,6 +149,7 @@
       if (!MEMBERS[k]) return;
       if (S.team[k].modalTitle) MEMBERS[k].title = S.team[k].modalTitle;
       if (S.team[k].bio) MEMBERS[k].bio = S.team[k].bio;
+      if (S.team[k].photo) MEMBERS[k].photo = S.team[k].photo;
     });
   }
   if (window.SITE) applySiteTeam(window.SITE);
