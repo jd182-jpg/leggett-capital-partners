@@ -127,6 +127,19 @@
         `Eric Kline is a Managing Principal of Starlight Campgrounds, the firm's recreational-RV platform, a growing network of premium outdoor RV destinations across the Midwest.`,
       ],
     },
+    andrew: {
+      name: 'Andrew Herrick', title: 'Senior Accountant', company: 'Leggett Capital Partners',
+      photo: 'assets/team/placeholder.png',
+      colleges: [
+        { name: 'University of Houston', logo: 'assets/colleges/houston.png' },
+        { name: 'United States Marine Corps', logo: 'assets/badges/marine-corps.png' },
+      ],
+      bio: [
+        `Andrew Herrick is a Senior Accountant at Leggett Capital Partners, where he manages the accounting and financial analysis for various partnerships in our Oil & Gas and Opportunities Groups. In this role, he oversees financial reporting, budgeting, operational analysis, and accounting processes that support strategic decision-making and long-term growth.`,
+        `Prior to joining Leggett Capital Partners, Andrew worked in public accounting at Reimer McGuinness Hess, where he provided accounting, tax, and advisory services to a diverse portfolio of businesses, developing expertise in financial reporting, tax compliance, and client consulting. He also served as a Senior Accountant with Safety Vision, further expanding his experience in corporate accounting, financial statement preparation, and multi-state tax reporting.`,
+        `Before beginning his career in accounting, Andrew proudly served in the United States Marine Corps, where he developed the discipline, leadership, and commitment to excellence that continue to shape his professional approach today.`,
+      ],
+    },
   };
 
   const modal = document.getElementById('memberModal');
