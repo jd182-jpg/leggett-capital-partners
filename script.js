@@ -142,6 +142,18 @@
     },
   };
 
+  // Merge CMS-edited titles/bios (from content/site.json) over the defaults above.
+  function applySiteTeam(S) {
+    if (!S || !S.team) return;
+    Object.keys(S.team).forEach(function (k) {
+      if (!MEMBERS[k]) return;
+      if (S.team[k].modalTitle) MEMBERS[k].title = S.team[k].modalTitle;
+      if (S.team[k].bio) MEMBERS[k].bio = S.team[k].bio;
+    });
+  }
+  if (window.SITE) applySiteTeam(window.SITE);
+  document.addEventListener('site:ready', function (e) { applySiteTeam(e.detail); });
+
   const modal = document.getElementById('memberModal');
   if (!modal) return;
   const $ = (id) => modal.querySelector(id);

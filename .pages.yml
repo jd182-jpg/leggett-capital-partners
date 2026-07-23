@@ -1,0 +1,110 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: site
+    label: Website Content
+    type: file
+    path: content/site.json
+    fields:
+      - name: hero
+        label: Hero (top of page)
+        type: object
+        fields:
+          - { name: title, label: Headline, type: string }
+          - { name: subhead, label: Subhead, type: text }
+          - { name: tagline, label: Tagline (under subhead), type: string }
+      - name: portfolio
+        label: Portfolio
+        type: object
+        fields:
+          - { name: oil_intro, label: "Oil & Gas — intro paragraph", type: text }
+          - name: oil_funds
+            label: "Oil & Gas — Cannon Field funds"
+            type: list
+            fields:
+              - { name: desc, label: Description, type: text }
+              - { name: status, label: "Status (e.g. Active)", type: string }
+          - { name: re_intro, label: "Real Estate — intro paragraph", type: text }
+          - { name: re_labels, label: "Real Estate — company labels", type: string, list: true }
+          - { name: opp_intro, label: "Opportunities — intro paragraph", type: text }
+          - { name: opp_labels, label: "Opportunities — investment labels", type: string, list: true }
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: office, label: Office address, type: text }
+          - { name: email, label: Email address, type: string }
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: tagline, label: Footer tagline, type: text }
+      - name: team
+        label: Team
+        type: object
+        fields:
+          - name: john
+            label: John Leggett
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: ashley
+            label: Ashley Tucker Zatcoff
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: brian
+            label: Brian Weinberg
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: earl
+            label: Earl Correll
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: brad
+            label: Brad Elmore
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: eric
+            label: Eric Kline
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }
+          - name: andrew
+            label: Andrew Herrick
+            type: object
+            fields:
+              - { name: role, label: "Role (card line 1)", type: string }
+              - { name: company, label: "Company (card line 2)", type: string }
+              - { name: extra, label: "Third line (optional)", type: string }
+              - { name: modalTitle, label: "Full title (bio popup)", type: string }
+              - { name: bio, label: "Bio (one box per paragraph)", type: text, list: true }

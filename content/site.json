@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "title": "Leggett Capital Partners",
+    "subhead": "A Houston based Private Equity Firm providing access to opportunistic investments in Real Estate, Oil & Gas and other alternative asset classes.",
+    "tagline": "Private Equity &nbsp;&middot;&nbsp; Houston, Texas &nbsp;&middot;&nbsp; Est. 2016"
+  },
+  "portfolio": {
+    "oil_intro": "Our oil &amp; gas group is managed by <b>Cannon Field</b>, our in-house oil &amp; gas company. Since its inception in 2017, Cannon Field has closed over 250 transactions across multiple mineral and royalty funds and non-operated assets concentrated in Oklahoma, Texas, New Mexico and Wyoming.",
+    "oil_funds": [
+      { "desc": "The inaugural fund, focused on minerals and royalties across Oklahoma, Texas and New Mexico.", "status": "Realized · Exited 2024" },
+      { "desc": "Focused on minerals across Oklahoma, Texas and New Mexico.", "status": "Active" },
+      { "desc": "Focused on minerals across Oklahoma, Texas, New Mexico and Wyoming.", "status": "Active; Investing" }
+    ],
+    "re_intro": "Our Real Estate Group includes traditional real estate assets operated by our two in-house portfolio companies, NewFound Partners and Starlight Campgrounds. From commercial real estate opportunities to Recreational RV assets, the portfolio consists of multiple assets across the US.",
+    "re_labels": ["Commercial Real Estate", "Recreational RV Parks"],
+    "opp_intro": "Led by Founder &amp; Managing Partner <a class=\"pf__lead\" href=\"#team\">John Leggett</a>, our Opportunities Group holds mature investments with strong fundamentals and attractive return potential.",
+    "opp_labels": [
+      "Sparkling Water",
+      "Upstream Oil &amp; Gas &middot; San Juan Basin (Realized &middot; Exited 2026)",
+      "Industrial Private Equity &middot; GP Stake",
+      "Infrastructure Private Equity &middot; GP Stake",
+      "Education &middot; Literacy",
+      "Luxury Resort &middot; South Caicos",
+      "Short-Term Financing of Essential Aircraft Engine Parts",
+      "Acquisition of Pratt &amp; Whitney Engines",
+      "Texas Community Bank"
+    ]
+  },
+  "contact": {
+    "office": "1106 Witte Rd., Suite 100<br />Houston, TX 77055",
+    "email": "investors@leggettventures.com"
+  },
+  "footer": {
+    "tagline": "A Houston based Private Equity Firm providing access to opportunistic investments in Real Estate, Oil & Gas and other alternative asset classes."
+  },
+  "team": {
+    "john": {
+      "role": "Founder & Managing Partner", "company": "Leggett Capital Partners", "extra": "",
+      "modalTitle": "Founder & Managing Partner",
+      "bio": [
+        "Founder and Managing Partner of Houston-based private equity firm Leggett Capital Partners, John Leggett is an avid entrepreneur and investor. With an extensive portfolio spanning real estate, energy and alternatives, the Leggett Capital Partners portfolio has a total asset value in excess of $350 million. John is the co-founder of multiple portfolio companies including oil & gas investment firm Cannon Field, commercial real estate firm NewFound Partners, nationally recognized building firm On Point Custom Homes, and Frontier Title, which operates 17 locations across Texas, Florida, North Carolina, Utah and Tennessee.",
+        "John started his career in investment banking as an analyst with Deutsche Bank and then in equity research with Credit Lyonnais, both covering the oil & gas industry. His passion for real estate turned into a full-time job when he launched On Point Custom Homes and left investment banking in 2004. From there, John's investment endeavors continued to expand, venturing into title, oil & gas, renewables and commercial real estate across the United States.",
+        "John graduated from the University of North Carolina at Chapel Hill, where he earned a BS in Business and a Master's in Accounting. His accolades include being named to the Houston Business Journal's 40 Under 40, with multiple businesses named to the Inc. 5000, Houston's Best Places to Work, and Houston's Fastest-Growing Companies."
+      ]
+    },
+    "ashley": {
+      "role": "Partner, COO & CCO", "company": "Leggett Capital Partners", "extra": "",
+      "modalTitle": "Partner, Chief Operating Officer & Chief Compliance Officer",
+      "bio": [
+        "Ashley is a Partner and the Chief Operating Officer at Leggett Capital Partners, supporting operational success across all LV portfolio companies and investments. With an extensive background in project management and communication, she works closely with internal and external parties to ensure our projects are completed efficiently and with high-quality outcomes.",
+        "She serves as the primary contact for investor communications and manages all investor onboarding and reporting via the Leggett Capital Partners investor portal. With a passion for organization and results, she manages the team and daily workflow to ensure our investment goals are met through strategic, integrated operations. Ashley is a Houston native who graduated from the University of South Carolina with a BA in Public Relations and Business."
+      ]
+    },
+    "brian": {
+      "role": "Partner", "company": "Leggett Capital Partners", "extra": "CEO of Cannon Field",
+      "modalTitle": "Partner & CEO, Cannon Field",
+      "bio": [
+        "Brian serves as a Partner and CEO of the Oil & Gas and Minerals Investment Group within Leggett Capital Partners, managing a diverse portfolio spanning oil & gas, from upstream, downstream and petrochemical to mineral projects. After more than ten years at ExxonMobil, one of the world's largest oil & gas companies, Brian brought his diversified experience across upstream, downstream and petrochemicals to lead the expansion of mineral investment opportunities at Leggett Capital Partners.",
+        "He is instrumental in project management, negotiation, operations, and financial & data analysis. Brian's extensive industry experience, paired with his enthusiasm for big-data analysis and financial modeling, gives him a unique perspective for creating low-risk, high-return mineral opportunities for our investors. Brian earned a degree in Chemical Engineering from Virginia Tech."
+      ]
+    },
+    "earl": {
+      "role": "Partner", "company": "Leggett Capital Partners", "extra": "CEO of On Point Custom Homes",
+      "modalTitle": "Partner & CEO, On Point Custom Homes",
+      "bio": [
+        "Earl has worked alongside John for over twenty years and serves as Partner and CEO of On Point Custom Homes as part of Leggett Capital Partners. He plays a critical role in all investment projects, particularly managing projects through every phase of the development cycle: feasibility, design, pre-construction and construction.",
+        "As CEO and President of On Point Custom Homes, a nationally and locally recognized custom homebuilding firm, Earl started his career in residential real estate as a project manager and now holds Graduate Master Builder and Certified Green Professional designations from the National Association of Home Builders. He was recently named one of Houston's Most Admired CEOs by the Houston Business Journal and serves as President of the Briargrove Homeowners Association."
+      ]
+    },
+    "brad": {
+      "role": "Managing Principal", "company": "NewFound Partners", "extra": "",
+      "modalTitle": "Managing Principal, NewFound Partners",
+      "bio": [
+        "Brad serves as Managing Principal and Head of the Commercial Real Estate Investment Group within Leggett Capital Partners, overseeing all commercial assets, land acquisitions, new-market opportunities and investment strategies. He brings more than 15 years of experience across a broad spectrum of commercial real estate asset classes to the team.",
+        "Prior to joining NewFound Partners to focus on principal-side investments, Brad worked at NewQuest Properties and HFF LP, where he closed over 300 real estate transactions with an aggregate value of more than $3 billion. A regular recipient of CoStar's \"Power Broker\" and the Houston Business Journal's \"Heavy Hitter\" awards, he serves on the boards of the Houston Racquet Club and Harris County Improvement District 14. Brad received a BA in Economics from the University of Tennessee and an MBA from Rice University, where he served as President of his class."
+      ]
+    },
+    "eric": {
+      "role": "Managing Principal", "company": "Starlight Campgrounds", "extra": "",
+      "modalTitle": "Managing Principal, Starlight Campgrounds",
+      "bio": [
+        "Eric Kline is a Managing Principal of Starlight Campgrounds, the firm's recreational-RV platform, a growing network of premium outdoor RV destinations across the Midwest."
+      ]
+    },
+    "andrew": {
+      "role": "Senior Accountant", "company": "Leggett Capital Partners", "extra": "",
+      "modalTitle": "Senior Accountant",
+      "bio": [
+        "Andrew Herrick is a Senior Accountant at Leggett Capital Partners, where he manages the accounting and financial analysis for various partnerships in our Oil & Gas and Opportunities Groups. In this role, he oversees financial reporting, budgeting, operational analysis, and accounting processes that support strategic decision-making and long-term growth.",
+        "Prior to joining Leggett Capital Partners, Andrew worked in public accounting at Reimer McGuinness Hess, where he provided accounting, tax, and advisory services to a diverse portfolio of businesses, developing expertise in financial reporting, tax compliance, and client consulting. He also served as a Senior Accountant with Safety Vision, further expanding his experience in corporate accounting, financial statement preparation, and multi-state tax reporting.",
+        "Before beginning his career in accounting, Andrew proudly served in the United States Marine Corps, where he developed the discipline, leadership, and commitment to excellence that continue to shape his professional approach today."
+      ]
+    }
+  }
+}
